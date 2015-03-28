@@ -109,6 +109,9 @@
   function getFeature(item, params, propFunc) {
     var feature = { "type": "Feature" };
 
+    if(item.id) {
+      feature.id = item.id;
+    }
     feature.geometry = buildGeom(item, params);
     feature.properties = propFunc.call(item);
 

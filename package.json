@@ -2,11 +2,15 @@
   "name": "geojson",
   "description": "Convert an array of geographic objects to GeoJSON",
   "author": "Casey Thomas <caseypthomas@gmail.com>",
-  "version": "0.1.5",
+  "contributors": [{
+    "name": "Jean-Matthieu DECHRISTE",
+    "email": "jmd@codedeporcos.fr"
+  }],
+  "version": "0.2.1",
   "main": "./geojson",
   "repository": {
     "type": "git",
-    "url": "http://github.com/caseypt/geojson.js.git"
+    "url": "https://github.com/jeanmatthieud/GeoJSON.js.git"
   },
   "dependencies": {},
   "devDependencies": {
